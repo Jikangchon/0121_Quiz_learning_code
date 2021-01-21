@@ -1,0 +1,29 @@
+int floor = 0;
+char command = 0;
+
+// 무한 반복 기능
+while(1) {
+	printf(\n출력할 층 수를 입력해 주세요. : ");
+	scanf_s("%d", &floor, sizeof(floor));
+
+
+printf("피라미드를 다시 그리시겠습니까? (y / n)");
+scanf_s("%c", &command, sizeof(command));
+
+if(command == 'n') break;
+
+}
+
+조건제어문 = continue
+// 1: 층수는 5층 이상
+
+// 2: 층수는 홀수여야한다.
+
+*
+**
+***
+****
+
+for (int i = t; i <= floor; i++) {
+// 1 - 5
+for (int j = 1; j <= ;  j++) {
